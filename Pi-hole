@@ -1,3 +1,12 @@
-# The purpose of the file is to document how I got Pi-Hole setup. 
+In this file, I document how I set up Pi-Hole and its impact on my homelab. 
 
+## Overview
+
+In my current home setup, I have over 10 devices connected to the internet via the router. I needed a way to block unwanted requests from websites, especially related to ad servers, when performing DNS queries (e.g., typing and entering a website URL). 
+
+From my understanding of DNS, when sending a request to view a webpage, the webpage often sends back various other requests to "complete" its content. Some of these additional requests are sent to 'ad servers,' which may include API endpoints or external links. If we can intercept and block these requests, the unwanted web content (i.e., ads) will be effectively blocked.
+
+## Pi-Hole Functionality
+
+Pi-Hole helps block these unwanted requests by maintaining its own blocklist, such as the list found at [StevenBlack's hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), which contains sources of most ads. Pi-Hole automatically blocks requests to these ad servers, ensuring that no ad content is fetched or displayed to users.
 
