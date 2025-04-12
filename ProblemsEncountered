@@ -1,0 +1,8 @@
+Problems Encountred when working with Proxmox Homelab:
+
+1) Proxmox Not Detecting internal NVME M.2 SSD on Dell Optiplex 7040: 
+(https://www.reddit.com/r/Proxmox/comments/sf8aul/proxmox_not_detecting_nvme/)
+(https://www.reddit.com/r/Proxmox/comments/sf8aul/comment/jtgn5nv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+Fix: 1) Go to System BIOS: Enable legacy options ROMs and Enable Attempt Legacy Boot.
+     2) Go to System BIOS: On SATA config set SATA Operations to AHCI (from RAID on).
+
