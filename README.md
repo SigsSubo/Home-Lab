@@ -12,7 +12,7 @@ Documenting my home lab journey in this repo.
 6. **Lenovo Thinkpad**: 4GB RAM, 64GB SSD
 
 ## Usage Overview:
-- **Dell Optiplex**: This is my main Proxmox server. I use the ASUS laptop to remote into it via SSH.
+- **Dell Optiplex (2-node cluster)**: This is my main Proxmox server. I use the ASUS laptop to remote into it via SSH.
   - The server will host virtual machines for **Home Assistant**, **OpenSense**, and more. These VMs will be stored on the NVMe drive for faster performance and larger storage capacity.
   - The SSD is primarily used to boot up the Proxmox server.
   - Future plans include adding an external drive for server backups.
