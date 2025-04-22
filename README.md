@@ -5,10 +5,11 @@ Documenting my home lab journey in this repo.
 ## What I am Working With:
 1. **Dell Optiplex 7040 SFF**: 48GB RAM, 2TB NVMe M.2, 1TB boot SSD  
    *(Planning to add an extra Network Interface Card for OpenSense, currently using TP-Link's USB to Ethernet Adapter as my second source.)*
-2. **TP-Link 5 Port Switch**
-3. **TP-Link USB to Ethernet Adapter**
-4. **ASUS Vivobook**: 16GB RAM, 500GB SSD
-5. **Lenovo Thinkpad**: 4GB RAM, 64GB SSD
+2. **Dell Optiplex 7050 Micro**: 16GB RAM, 255GB SSD (contains volumes for both Boot & Virtual Machines)
+3. **TP-Link 5 Port Switch**
+4. **TP-Link USB to Ethernet Adapter**
+5. **ASUS Vivobook**: 16GB RAM, 500GB SSD
+6. **Lenovo Thinkpad**: 4GB RAM, 64GB SSD
 
 ## Usage Overview:
 - **Dell Optiplex**: This is my main Proxmox server. I use the ASUS laptop to remote into it via SSH.
